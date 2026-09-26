@@ -1,4 +1,4 @@
-# PID and MPC Control of a Cart–Inverted Pendulum
+﻿# PID and MPC Control of a Cartâ€“Inverted Pendulum
 
 Design, implementation, and comparison of PID and Model Predictive Control (MPC) algorithms for stabilizing an inverted pendulum mounted on a cart.
 
@@ -17,7 +17,7 @@ Design, implementation, and comparison of PID and Model Predictive Control (MPC)
 
 ### Three-controller comparison
 
-The plots below compare Standard PID, Cascade PID, and MPC on the same cart–inverted pendulum study.
+The plots below compare Standard PID, Cascade PID, and MPC on the same cartâ€“inverted pendulum study.
 
 <p align="center">
   <img src="assets/images/presentation/image81.png" alt="Pendulum angle response: Standard PID, Cascade PID, and MPC" width="700">
@@ -33,7 +33,7 @@ The plots below compare Standard PID, Cascade PID, and MPC on the same cart–in
 
 ## Project overview
 
-The cart–inverted pendulum is a nonlinear, unstable, and underactuated benchmark in control engineering. A single cart actuator must keep the pendulum upright while moving the cart to its position reference. The project studies how classical PID control and constrained MPC handle this coupled system, actuator limits, disturbances, and transient performance.
+The cartâ€“inverted pendulum is a nonlinear, unstable, and underactuated benchmark in control engineering. A single cart actuator must keep the pendulum upright while moving the cart to its position reference. The project studies how classical PID control and constrained MPC handle this coupled system, actuator limits, disturbances, and transient performance.
 
 The project work covers:
 
@@ -49,6 +49,7 @@ The project work covers:
 ```text
 .
 |-- assets/
+|   |-- images/                         Extracted plant photos and result plots
 |   `-- Inverted_Pendulum_final1 (1).pptx   Project and thesis-defense presentation
 |-- docs/
 |   `-- BA_thesis_template_Final Edition3.docx   Thesis document and results
@@ -73,7 +74,7 @@ The presentation discusses proportional, integral, and derivative action, measur
 
 MPC predicts the next samples using the state-space model, solves a finite-horizon optimization problem, applies the first control move, and repeats this process at the next sample. Motor and rail limits are included directly in the optimization problem rather than being handled after the controller is designed.
 
-The project compares a linear MPC prediction model with a nonlinear plant and discusses real-time execution, move blocking, and the Python–Arduino setup.
+The project compares a linear MPC prediction model with a nonlinear plant and discusses real-time execution, move blocking, and the Pythonâ€“Arduino setup.
 
 ## Modeling and simulation
 
@@ -133,8 +134,8 @@ No software license has been selected yet. The documents remain the authors' aca
 
 The diagrams, hardware photographs, CAD views, and simulation plots embedded in the source documents are archived under `assets/images/`:
 
-- `assets/images/thesis/` â€” figures extracted from the thesis document
-- `assets/images/presentation/` â€” figures extracted from the presentation
+- `assets/images/thesis/` Ã¢â‚¬â€ figures extracted from the thesis document
+- `assets/images/presentation/` Ã¢â‚¬â€ figures extracted from the presentation
 
 Selected examples:
 
@@ -143,4 +144,5 @@ Selected examples:
 ![Controller command profile](assets/images/presentation/image57.png)
 
 ![Hardware component](assets/images/thesis/image30.png)
+
 
