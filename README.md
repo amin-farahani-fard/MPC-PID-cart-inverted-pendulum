@@ -80,8 +80,12 @@ The model includes cart position and velocity together with pendulum angle and a
 The presentation describes MATLAB/Simulink and Python simulations with a 5 ms sampling step, actuator saturation, quantization effects, and microstep limits. A Simscape Multibody model is also discussed for checking the effect of mass distribution, joint friction, and three-dimensional inertia.
 
 
-<p align="center">
+<p align="right">
   <img src="assets/images/presentation/image34.png" alt="Stepper motor command: Standard PID, Cascade PID, and MPC" width="700">
+</p>
+
+<p align="left">
+  <img src="assets/images/presentation/image38.png" alt="Stepper motor command: Standard PID, Cascade PID, and MPC" width="700">
 </p>
 
 ## Hardware platform
