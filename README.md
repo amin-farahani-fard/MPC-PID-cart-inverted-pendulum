@@ -122,10 +122,6 @@ results/      Experimental data and plots
 
 
 
-## Image gallery
-
-The images used on this README page are stored under `assets/readme/`.
-
 
 
 
