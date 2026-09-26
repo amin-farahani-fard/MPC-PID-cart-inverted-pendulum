@@ -80,13 +80,12 @@ The model includes cart position and velocity together with pendulum angle and a
 The presentation describes MATLAB/Simulink and Python simulations with a 5 ms sampling step, actuator saturation, quantization effects, and microstep limits. A Simscape Multibody model is also discussed for checking the effect of mass distribution, joint friction, and three-dimensional inertia.
 
 
-<p align="right">
-  <img src="assets/images/presentation/image34.png" width="300">
-</p>
-
-<p align="left">
-  <img src="assets/images/presentation/image38.png" width="300">
-</p>
+<table>
+  <tr>
+    <td align="center"><img src="assets/images/presentation/image34.png" alt="Simulation scope response" width="430"></td>
+    <td align="center"><img src="assets/images/presentation/image38.png" alt="Cart, pendulum, velocity, and control-force plots" width="430"></td>
+  </tr>
+</table>
 
 ## Hardware platform
 
