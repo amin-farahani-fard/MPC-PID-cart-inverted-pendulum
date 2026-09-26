@@ -99,3 +99,19 @@ results/      Experimental data and plots
 ## License
 
 No software license has been selected yet. The documents remain the authors' academic work; add a license when source code is published.
+
+## Image gallery
+
+The diagrams, hardware photographs, CAD views, and simulation plots embedded in the source documents are archived under `assets/images/`:
+
+- `assets/images/thesis/` â€” figures extracted from the thesis document
+- `assets/images/presentation/` â€” figures extracted from the presentation
+
+Selected examples:
+
+![Linear and nonlinear model comparison](assets/images/presentation/image32.png)
+
+![Controller command profile](assets/images/presentation/image57.png)
+
+![Hardware component](assets/images/thesis/image30.png)
+
