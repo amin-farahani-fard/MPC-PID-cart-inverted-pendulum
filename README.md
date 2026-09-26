@@ -117,7 +117,7 @@ results/      Experimental data and plots
 - **Student:** Mohammad Amin Farahani Fard
 - **Project collaborator:** Houmaan Aghbashlou
 - **Supervisor:** Dr. Javad Poshtan
-- **Additional defense committee member  in the presentation:** Dr. Soheil Ganjefar
+- **Additional defense committee member :** Dr. Soheil Ganjefar
 - **Institution:** Iran University of Science and Technology, School of Electrical Engineering
 
 
