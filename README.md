@@ -30,7 +30,7 @@ The plots below compare Standard PID, Cascade PID, and MPC on the same cartâ€
 
 ## Project overview
 
-The cartâ€“inverted pendulum is a nonlinear, unstable, and underactuated benchmark in control engineering. A single cart actuator must keep the pendulum upright while moving the cart to its position reference. The project studies how classical PID control and constrained MPC handle this coupled system, actuator limits, disturbances, and transient performance.
+The cart inverted pendulum is a nonlinear, unstable, and underactuated benchmark in control engineering. A single cart actuator must keep the pendulum upright while moving the cart to its position reference. The project studies how classical PID control and constrained MPC handle this coupled system, actuator limits, disturbances, and transient performance.
 
 The project work covers:
 
@@ -54,7 +54,7 @@ The project work covers:
 `-- README.md
 ```
 
-The repository currently contains the thesis and presentation archive. MATLAB, Simulink, firmware, CAD, and measurement files can be added to the corresponding folders as they are released.
+The repository currently contains the thesis and presentation archive. MATLAB, Simulink, firmware, CAD, and measurement files will update soon.
 
 ## Control methods
 
@@ -65,7 +65,7 @@ PID control reacts to the measured error and is used in two arrangements:
 1. **Independent PID:** angle and cart-position loops contribute to the motor command at the same time.
 2. **Cascade PID:** an outer position loop generates an angle reference for a faster inner angle loop, giving pendulum stabilization priority.
 
-The presentation discusses proportional, integral, and derivative action, measurement quantization, derivative noise, and low-pass filtering.
+The presentation discusse proportional, integral, and derivative action, measurement quantization, derivative noise, and low-pass filtering.
 
 ### Model Predictive Control
 
@@ -78,6 +78,11 @@ The project compares a linear MPC prediction model with a nonlinear plant and di
 The model includes cart position and velocity together with pendulum angle and angular velocity. The nonlinear model retains the trigonometric and coupled terms; the linear model is used around the upright operating point and as the prediction model for the linear MPC.
 
 The presentation describes MATLAB/Simulink and Python simulations with a 5 ms sampling step, actuator saturation, quantization effects, and microstep limits. A Simscape Multibody model is also discussed for checking the effect of mass distribution, joint friction, and three-dimensional inertia.
+
+
+<p align="center">
+  <img src="assets/images/presentation/image34.png" alt="Stepper motor command: Standard PID, Cascade PID, and MPC" width="700">
+</p>
 
 ## Hardware platform
 
@@ -100,7 +105,7 @@ The thesis abstract and presentation report that:
 - Constrained MPC gives the strongest disturbance rejection while respecting the motor and rail limits.
 - The thesis reports approximately a 35% reduction in settling time for MPC and angular overshoot below 2 degrees under the studied disturbance.
 
-These values describe the experiments and simulations documented in the supplied thesis and presentation; they should be revalidated when the source models and measurement data are added.
+
 
 ## Getting started
 
@@ -120,19 +125,17 @@ results/      Experimental data and plots
 - **Student:** Mohammad Amin Farahani Fard
 - **Project collaborator:** Houmaan Aghbashlou
 - **Supervisor:** Dr. Javad Poshtan
-- **Additional defense committee member shown in the presentation:** Dr. Soheil Ganjefar
+- **Additional defense committee member  in the presentation:** Dr. Soheil Ganjefar
 - **Institution:** Iran University of Science and Technology, School of Electrical Engineering
 
-## License
 
-No software license has been selected yet. The documents remain the authors' academic work; add a license when source code is published.
 
 ## Image gallery
 
 The diagrams, hardware photographs, CAD views, and simulation plots embedded in the source documents are archived under `assets/images/`:
 
-- `assets/images/thesis/` Ã¢â‚¬â€ figures extracted from the thesis document
-- `assets/images/presentation/` Ã¢â‚¬â€ figures extracted from the presentation
+- `assets/images/thesis/`  figures extracted from the thesis document
+
 
 
 
