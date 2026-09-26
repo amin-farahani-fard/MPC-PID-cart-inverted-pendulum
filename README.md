@@ -7,7 +7,7 @@ Design, implementation, and comparison of PID and Model Predictive Control (MPC)
 ### Main plant views
 
 <p align="center">
-  <img src="assets/images/presentation/image51.png" alt="Final cart-inverted pendulum test rig" width="700">
+  <img src="assets/readme/image51.png" alt="Final cart-inverted pendulum test rig" width="700">
 </p>
 
 
@@ -17,15 +17,15 @@ Design, implementation, and comparison of PID and Model Predictive Control (MPC)
 The plots below compare Standard PID, Cascade PID, and MPC on the same cartâ€“inverted pendulum study.
 
 <p align="center">
-  <img src="assets/images/presentation/image81.png" alt="Pendulum angle response: Standard PID, Cascade PID, and MPC" width="700">
+  <img src="assets/readme/image81.png" alt="Pendulum angle response: Standard PID, Cascade PID, and MPC" width="700">
 </p>
 
 <p align="center">
-  <img src="assets/images/presentation/image82.png" alt="Cart position tracking: Standard PID, Cascade PID, and MPC" width="700">
+  <img src="assets/readme/image82.png" alt="Cart position tracking: Standard PID, Cascade PID, and MPC" width="700">
 </p>
 
 <p align="center">
-  <img src="assets/images/presentation/image85.png" alt="Stepper motor command: Standard PID, Cascade PID, and MPC" width="700">
+  <img src="assets/readme/image85.png" alt="Stepper motor command: Standard PID, Cascade PID, and MPC" width="700">
 </p>
 
 ## Project overview
@@ -82,8 +82,8 @@ The presentation describes MATLAB/Simulink and Python simulations with a 5 ms sa
 
 <table>
   <tr>
-    <td align="center"><img src="assets/images/presentation/image34.png" alt="Simulation scope response" width="430"></td>
-    <td align="center"><img src="assets/images/presentation/image38.png" alt="Cart, pendulum, velocity, and control-force plots" width="430"></td>
+    <td align="center"><img src="assets/readme/image34.png" alt="Simulation scope response" width="430"></td>
+    <td align="center"><img src="assets/readme/image38.png" alt="Cart, pendulum, velocity, and control-force plots" width="430"></td>
   </tr>
 </table>
 
@@ -124,9 +124,7 @@ results/      Experimental data and plots
 
 ## Image gallery
 
-The diagrams, hardware photographs, CAD views, and simulation plots embedded in the source documents are archived under `assets/images/`:
-
-- `assets/images/thesis/`  figures extracted from the thesis document
+The images used on this README page are stored under `assets/readme/`.
 
 
 
