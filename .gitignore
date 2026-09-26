@@ -1,0 +1,18 @@
+# MATLAB and Simulink
+*.asv
+*.autosave
+*.m~
+slprj/
+*.slxc
+*.slxcache
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+~$*
