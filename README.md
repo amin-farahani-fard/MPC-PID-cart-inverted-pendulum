@@ -2,6 +2,35 @@
 
 Design, implementation, and comparison of PID and Model Predictive Control (MPC) algorithms for stabilizing an inverted pendulum mounted on a cart.
 
+## Plant and controller comparison
+
+### Main plant views
+
+<p align="center">
+  <img src="assets/images/presentation/image51.png" alt="Final cart-inverted pendulum test rig" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/presentation/image44.png" alt="First cart-inverted pendulum mechanical design" width="420">
+  <img src="assets/images/presentation/image48.png" alt="GT2 belt drive used on the cart" width="320">
+</p>
+
+### Three-controller comparison
+
+The plots below compare Standard PID, Cascade PID, and MPC on the same cart–inverted pendulum study.
+
+<p align="center">
+  <img src="assets/images/presentation/image81.png" alt="Pendulum angle response: Standard PID, Cascade PID, and MPC" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/presentation/image82.png" alt="Cart position tracking: Standard PID, Cascade PID, and MPC" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/presentation/image85.png" alt="Stepper motor command: Standard PID, Cascade PID, and MPC" width="700">
+</p>
+
 ## Project overview
 
 The cart–inverted pendulum is a nonlinear, unstable, and underactuated benchmark in control engineering. A single cart actuator must keep the pendulum upright while moving the cart to its position reference. The project studies how classical PID control and constrained MPC handle this coupled system, actuator limits, disturbances, and transient performance.
