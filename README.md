@@ -1,4 +1,4 @@
-﻿# PID and MPC Control of a Cartâ€“Inverted Pendulum
+﻿# PID and MPC Control of a Cart Inverted Pendulum
 
 Design, implementation, and comparison of PID and Model Predictive Control (MPC) algorithms for stabilizing an inverted pendulum mounted on a cart.
 
@@ -134,12 +134,7 @@ The diagrams, hardware photographs, CAD views, and simulation plots embedded in 
 - `assets/images/thesis/` Ã¢â‚¬â€ figures extracted from the thesis document
 - `assets/images/presentation/` Ã¢â‚¬â€ figures extracted from the presentation
 
-Selected examples:
 
-![Linear and nonlinear model comparison](assets/images/presentation/image32.png)
 
-![Controller command profile](assets/images/presentation/image57.png)
-
-![Hardware component](assets/images/thesis/image30.png)
 
 
