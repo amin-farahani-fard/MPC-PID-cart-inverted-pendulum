@@ -87,18 +87,7 @@ The presentation describes MATLAB/Simulink and Python simulations with a 5 ms sa
   </tr>
 </table>
 
-## Hardware platform
 
-The final rig described in the presentation uses:
-
-- A belt-driven cart on a linear rail
-- A NEMA 17 stepper motor and TB6600 microstep driver
-- An Arduino Uno controller
-- An AS5600 magnetic encoder for pendulum angle
-- End-stop switches for cart-position zeroing
-- A 24 V DC bench supply
-
-Cart position is obtained from counted step pulses, while the angle is measured without contact at the pendulum pivot.
 
 ## Reported findings
 
