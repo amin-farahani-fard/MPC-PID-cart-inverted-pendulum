@@ -81,11 +81,11 @@ The presentation describes MATLAB/Simulink and Python simulations with a 5 ms sa
 
 
 <p align="right">
-  <img src="assets/images/presentation/image34.png" alt="Stepper motor command: Standard PID, Cascade PID, and MPC" width="700">
+  <img src="assets/images/presentation/image34.png" width="300">
 </p>
 
 <p align="left">
-  <img src="assets/images/presentation/image38.png" alt="Stepper motor command: Standard PID, Cascade PID, and MPC" width="700">
+  <img src="assets/images/presentation/image38.png" width="300">
 </p>
 
 ## Hardware platform
