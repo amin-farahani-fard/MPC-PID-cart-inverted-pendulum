@@ -10,10 +10,7 @@ Design, implementation, and comparison of PID and Model Predictive Control (MPC)
   <img src="assets/images/presentation/image51.png" alt="Final cart-inverted pendulum test rig" width="700">
 </p>
 
-<p align="center">
-  <img src="assets/images/presentation/image44.png" alt="First cart-inverted pendulum mechanical design" width="420">
-  <img src="assets/images/presentation/image48.png" alt="GT2 belt drive used on the cart" width="320">
-</p>
+
 
 ### Three-controller comparison
 
